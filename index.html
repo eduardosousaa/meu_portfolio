@@ -158,13 +158,17 @@
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
-                <form action="">
-                    <input type="text" class="text" placeholder="Seu nome: " required>
-                    <input type="text" class="text" placeholder="Seu e-mail: " required>
-                    <input type="text" class="text" placeholder="Seu celular: ">
-                    <textarea name="" id="" placeholder="Sua mensagem: " required></textarea>
+                <form action="https://formsubmit.co/eduardosousa1718@gmail.com" method="post">
+                    <input type="text" name="name" class="text" placeholder="Seu nome: " required>
+                    <input type="text" name="email" class="text" placeholder="Seu e-mail: " required>
+                    <input type="number" name="phone" class="text" placeholder="Seu celular: ">
+                    <textarea name="mensage" id="" placeholder="Sua mensagem: " required></textarea>
 
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+
+                    <input type="hidden" name="_subject" value="Novo Contato!">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_captcha" value="false">
                 </form>
             </div> <!--interface-->
         </section> <!--formulario-->
