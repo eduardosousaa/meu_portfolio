@@ -37,6 +37,7 @@ body {
     font-size: 18px;
     font-weight: 600;
     background-color: #01A5B1;
+    color: #fff;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -54,6 +55,10 @@ h2.titulo span {
 }
 
 i {
+    color: #fff;
+}
+
+button {
     color: #fff;
 }
 
@@ -376,21 +381,10 @@ form .btn-enviar {
 form .btn-enviar button {
     width: 120px;
     background-color: #01A5B1;
-    color: #000;
+    color: #fff;
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
-}
-
-input:-webkit-autofill {
-    background-color: #01A5B1 !important;  /* Define a cor de fundo desejada */
-    color: #000 !important;  /* Define a cor do texto */
-    border: 1px solid #ccc;  /* Ajusta a borda, se necessário */
-    transition: background-color 0.2s ease-in-out;
-}
-
-input:-webkit-autofill::first-line {
-    color: #000;  /* Cor do texto na primeira linha */
 }
 
 
