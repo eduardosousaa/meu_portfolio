@@ -195,7 +195,7 @@ section.topo-do-site .flex {
 }
 
 
-@keyframes flutuar {
+/* @keyframes flutuar {
     0% {
         top: 0;
     }
@@ -203,7 +203,7 @@ section.topo-do-site .flex {
     100% {
         top: 30px;
     }
-}
+} */
 
 /* ESTILO DA ESPECIALIDADE */
 
@@ -347,7 +347,7 @@ form {
 }
 
 form input,
-form textarea {
+form textarea, form button {
     width: 100%;
     background-color: #525151;
     border: 0;
@@ -368,7 +368,7 @@ form .btn-enviar {
     text-align: center;
 }
 
-form .btn-enviar input {
+form .btn-enviar button {
     width: 120px;
     background-color: #01A5B1;
     color: #000;
@@ -376,6 +376,18 @@ form .btn-enviar input {
     cursor: pointer;
     transition: .2s;
 }
+
+input:-webkit-autofill {
+    background-color: #01A5B1 !important;  /* Define a cor de fundo desejada */
+    color: #000 !important;  /* Define a cor do texto */
+    border: 1px solid #ccc;  /* Ajusta a borda, se necessário */
+    transition: background-color 0.2s ease-in-out;
+}
+
+input:-webkit-autofill::first-line {
+    color: #000;  /* Cor do texto na primeira linha */
+}
+
 
 /* ESTILO DO RODAPÉ */
 
