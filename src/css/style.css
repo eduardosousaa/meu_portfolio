@@ -316,6 +316,7 @@ section.portfolio .flex {
     height: 100%;
     border-radius: 40px;
     background-color: #000000b8;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
