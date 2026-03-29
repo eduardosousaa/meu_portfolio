@@ -23,6 +23,7 @@ function SendMail() {
         document.getElementById("phone").value = "";
         document.getElementById("message").value = "";
     }).catch(function (error) {
-        alert("Erro ao enviar a mensagem. Tente novamente mais tarde.");
+        console.error("Erro EmailJS:", error);
+        alert("Erro ao enviar a mensagem. Por favor, verifique o console (F12) para mais detalhes ou tente novamente mais tarde.");
     });
 }
